@@ -1,0 +1,75 @@
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* .gradient{
+    width:300px;
+    height:300px;
+    border-radius:50%; */
+    /* background:conic-gradient(rgba(255, 0, 0, .5) 0deg, rgba(255, 0, 0, .5) 90deg, rgba(0, 255, 0, 1) 90deg, rgba(0, 255, 0, 1) 180deg, blue 180deg, blue 270deg,yellow 270deg,yellow 360deg); */
+ /* background:conic-gradient(from -30deg,#FFE15B 0deg, #FFE15B 28.8deg, #53AED5 28.8deg, #53AED5 194.4deg ,#72D8C8 194.4deg, #72D8C8 284.4deg, #F46A67 284.4deg, #F46A67 360deg);
+ position: relative;
+     */
+/* } */
+/* span{
+    font-size:20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+.first{
+       top: 17%;
+       left: 37%;
+}
+.second {
+    top: 45%;
+    left: 67%;
+}
+
+.third {
+    top: 71%;
+    left: 32%;
+}
+.fourth {
+    top: 38%;
+    left: 18%;
+} */
+
+
+
+/* ============ */
+
+
+.box{
+    width:500px;
+    height:500px;
+    padding:15px;
+    /* box-sizing: border-box; */
+    /* border-top-style:solid;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: dashed;
+    border-top-color: teal;
+    border-right-color: cyan;
+    border-bottom-color: red;
+    border-left-color: green;
+    border-top-width: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 30px;
+    border-left-width: 30px; */
+    /* border:20px 10px 30px 30px solid dotted double dashed teal cyan red green; */
+    /* border:10px solid red; */
+    
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+/* border-radius:20px 5px 6px 10px; */
+border:30px solid;
+border-image-source: url("1.png");
+
+
+}

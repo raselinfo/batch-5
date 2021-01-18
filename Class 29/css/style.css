@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 30px;
+  font-family: sans-serif;
+  background: #E8C3B9;
+}
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+/*# sourceMappingURL=style.css.map */

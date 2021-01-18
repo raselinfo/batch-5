@@ -1,0 +1,68 @@
+/* table,td,th{
+    border:1px solid grey;
+}
+table{
+    border-collapse:collapse; 
+    border-spacing: 5px 50px;
+   caption-side:top;
+   empty-cells: hide;
+   width:100%;
+
+}
+td{
+    vertical-align: middle;
+    text-align: center;
+}
+tr:nth-child(even){
+    background:green;
+    color:white;
+}
+.lschild {
+    background:red;
+} */
+
+
+/* New Gradient table */
+body{
+
+    height:100vh;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   
+}
+table{
+  
+    color:#fff;
+    width:80%;
+    border-collapse: collapse;
+   
+ background:linear-gradient(to right, #4902FF, #9E2BE8);
+ font-size:25px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.thead th{
+   padding:15px 0px;
+}
+tbody{
+    text-align: center;
+}
+tbody td{
+    padding:15px 0px;
+}
+tr td:first-child{
+    text-align: left;
+ 
+  
+}
+
+.thead{
+    
+    background:linear-gradient(to right, #8454FF, #B769F0);
+
+    
+}
+.ml{
+    margin-left:20px;
+}

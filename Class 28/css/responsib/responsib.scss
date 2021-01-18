@@ -1,0 +1,57 @@
+@media screen and (max-width:1170px){
+    .container{
+        padding: 0rem 4rem;
+    }
+    .hero_section{
+        .hero_content{
+           margin-right:6rem;
+           h1{
+               font-size:5rem;
+           }
+        }
+        .hero_image {
+            width: 350px;
+            margin-top:5rem;
+        }
+    }
+    nav{
+        .menu{
+            text-align: right;
+            .main_menu {
+                display: none;
+            }
+            .cross {
+               width:96%;
+               display: block;
+               span{
+                   font-size: 3rem;
+                   font-weight: 600;
+                  
+               }
+            }
+        }
+        
+        
+    }
+    .Product_details .products{
+        float:none;
+        margin:0 auto;
+        width:600px;
+    }
+.Product_details .products .features_box .fetures_image {
+    display: none;
+}
+.Product_details .products .features_box .pre{
+    display: block;
+}
+    
+    
+}
+
+
+@media screen and(max-width:700px){
+    .aboute_us .calientWrapper .client{
+        background:red;
+        width:700px;
+    }
+}

@@ -1,0 +1,17 @@
+body{
+    background:#000;
+    color:#fff;
+    overflow: hidden;
+}
+
+.box{
+    width:150px;
+    height:150px;
+    background:green;
+    margin-bottom:4rem;
+    margin-top:5rem;
+}
+
+button{
+    padding:2rem;
+}

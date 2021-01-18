@@ -1,0 +1,116 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+img{
+    width:100%;
+}
+#wrapper{
+    width:100%;
+    height:100%;
+    
+}
+.firstSection{
+    background:rgba(232, 246, 32, 0.931);
+    height:85vh;
+    position: relative;
+}
+.firstSection .heroBtn{
+    background:none;
+    padding:10px 15px;
+    width: 150px;
+   font-size:20px;
+   font-weight:bold;
+   border:none;
+   box-shadow:0px 0px 6px -1px #909090;
+   margin-top:20px;
+    transition:.5s;
+}
+.firstSection .heroBtn:hover{
+    box-shadow:0px 0px 6px 2px #909090;
+      
+}
+.firstSection .heroArea{
+    min-width:1147px;
+    position:absolute;
+    top:50%;
+    left:50%;
+   
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+.firstSection .heroArea h2{
+    font-size:80px;
+    font-family:sans-serif;
+    text-transform:uppercase;
+}
+.secondSection{
+    background:cyan;
+    min-height:400px;
+    position:relative;
+}
+.secondSection .secondContent h2{
+    font-size:60px;
+    font-family:sans-serif;
+    margin-bottom:20px;
+}
+.secondSection .secondContent p{
+    font-size:20px;
+    color:#a9a9a9a8;
+}
+.secondSection .secondContent{
+    width:600px;
+}
+.secondSection .secondContent{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+.thirdSection{
+    background:rgb(38, 154, 248);
+    min-height: 500px;
+    position: relative;
+}
+.card_container{
+    width:1150px;
+    margin:0 auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.card{
+    width:366.66px;
+    background:#fff;
+    padding:10px;
+    float:left;
+    margin-right:25px;
+}
+.card:nth-child(3){
+    margin-right: 0px;
+}
+.card_header img{
+    vertical-align:top;
+}
+.cardTitle{
+    background:#000;
+    text-align:center;
+    color:#fff;
+    padding:15px;
+    font-size:25px;
+    font-family:sans-serif;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    
+}
+.cardTitle h3{
+   
+    font-weight:400;
+}
+.cardContent p{
+    text-align:justify;
+}
+
+
+
+
+

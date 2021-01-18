@@ -1,0 +1,25 @@
+.line{
+    position: relative;
+}
+.line::after{
+    font-family: "Font Awesome 5 Free";
+    
+    content: "\f007";
+    // width: 115px;
+    // height: 5px;
+    // background: #000;
+    // display: block;
+    // position: absolute;
+    // top: 27px;
+    // left: 169px;
+}
+.line::before{
+    content:'';
+    width:115px;
+    height:5px;
+    background:#000;
+    display: block;
+    position:absolute;
+    top:27px;
+    left:-120px;
+}

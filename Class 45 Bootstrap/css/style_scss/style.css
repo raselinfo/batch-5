@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-nav .secondDropdown {
+  display: none;
+  left: 100%;
+  top: 0;
+}
+
+.dropHover {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.dropHover:hover .secondDropdown {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

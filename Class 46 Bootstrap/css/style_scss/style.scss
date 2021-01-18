@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navbar2{
+    background:linear-gradient(to right,#22c1c3,#fdbb2d);
+        position:fixed;
+        top:0;
+        right:0;
+        left:0;
+        position:relative;
+}
+.dropdown-menu{
+    margin-top:18px;
+    background:linear-gradient(45deg,#00cfac,#82c016)
+}
+
+@media screen and (max-width:991px){
+    #mySecondNavbar{
+     
+            position: absolute;
+            top:100%;
+            width:100px;
+            right:0;
+            bottom:0;
+            height:100vh;
+            
+    
+    }
+    .navbar-nav{
+        height:100%;
+        
+    }
+   
+}

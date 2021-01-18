@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#carouselExampleControls{
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    height:100vh;
+}
+a.sliderPreveNext{
+    text-decoration: none;
+    width:60px;
+    height: 60px;
+    position: absolute !important;
+    top:50%;
+    transform: translateY(-50%);
+}
+.sliderPreveNext i{
+    font-size:50px;
+    
+}
+.carouselRound{
+ width:20px !important;
+    height:20px !important;
+    border-radius: 50% !important;
+}
+.carousel-indicators{
+  
+
+ 
+   img{
+       margin-right:5px;
+       height:50px;
+       cursor: pointer;
+   }
+}
+
+#header{
+    overflow: hidden;
+}
+
+.carousel-item:nth-child(1){
+    background:url('https://miro.medium.com/max/10000/0*wZAcNrIWFFjuJA78');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    
+}
+.carousel-item:nth-child(2){
+    background:url('https://images6.alphacoders.com/674/thumb-1920-674632.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+.carousel-item:nth-child(3){
+    background:url('https://images3.alphacoders.com/262/thumb-1920-262977.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
