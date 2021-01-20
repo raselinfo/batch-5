@@ -1,0 +1,39 @@
+body{
+   
+    color:#fff;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    
+}
+
+.box{
+    width:150px;
+    height:150px;
+    background:green;
+    margin-bottom:4rem;
+    margin-top:5rem;
+}
+
+button{
+    padding:2rem;
+}
+
+img{
+    width:100px;
+    margin:.5rem;
+    
+  
+   
+}
+
+#octopas{
+    width:100vw;
+    height:600px;
+    background:#000;
+    display:flex; 
+    justify-content:center;
+    align-items:flex-end; 
+
+    overflow:hidden;
+}
