@@ -1,34 +1,28 @@
-// var secondBtn = document.getElementById("second");
+gsap.timeline()
+    .from("#octopas",{
+        autoAlpha:0,
+       
+    })
 
-// function handal() {
+    .from("h1",{
+        opacity:0,
+       scale:0,
+       ease:"back"
+    })
 
-//     console.log(counter)
+    .fromTo(".imgWrapper img",{
+        y:100
+    },{
+        y:-40,
+       ease:"back",
+   
+        stagger:{
+            amount:.3,
+            from:"center"
 
-//         if (counter%2==0) {
-//             document.body.style.backgroundColor = "#000";
-//             document.body.style.color = "#fff";
+        }
+    })
 
-           
-//             console.log(counter)
-
-
-//         }
-//         else {
-//             document.body.style.backgroundColor = "#fff";
-//             bool = true;
-//         }
-//     counter++;
-
-
-
-// }
-// var counter = 2;
-// secondBtn.onclick = handal;
-
-
-
-var spample = document.getElementById("sample");
-
-var text=spample.appendChild("<span>")
-
-text.innerText="Span is here"
+    .from(".headingThree h3",{
+        xPercent:100
+    })
