@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* Variable */
+:root {
+  /* Color */
+  --primary: #7857FE;
+  --danger: #E91E63;
+  --warning: #F5AE10;
+  --success: #09D69C;
+  --light: #FFFFFF;
+  --gray: #868686;
+  --light-gray: #EDEDED;
+  --dark: #000000;
+  /* Font */
+  --lato: 'Lato', sans-serif;
+  --roboto: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--lato);
+}
+
+p {
+  font-family: var(--roboto);
+  color: var(--gray);
+}
+
+.btn {
+  background-color: var(--light-gray);
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: var(--roboto);
+  color: var(--primary);
+  width: 20rem;
+  height: 5rem;
+  border-radius: 5rem;
+  -webkit-box-shadow: 0 0 1.7rem -0.3rem var(--light-gray);
+          box-shadow: 0 0 1.7rem -0.3rem var(--light-gray);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 0 1.7rem 0.7rem var(--light-gray);
+          box-shadow: 0 0 1.7rem 0.7rem var(--light-gray);
+  color: var(--primary);
+}
+
+.btn__circle {
+  width: 5rem;
+}
+
+/* Header */
+#header {
+  overflow: hidden;
+}
+
+.navbar__bg {
+  background: var(--primary) !important;
+  padding: 0;
+}
+
+.navbar__log {
+  font-size: 4rem;
+  font-family: var(--lato);
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-family: var(--roboto);
+  color: var(--light) !important;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  width: 100%;
+  height: .3rem;
+  background: var(--light);
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin: 0 auto;
+  border-radius: .5rem;
+}
+
+.nav-link:hover::after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.nav-item {
+  min-height: 100px;
+  height: 100%;
+  line-height: 100px;
+}
+
+.dropdown__toggle {
+  position: relative;
+}
+
+.dropdown__menu {
+  position: absolute;
+  background: var(--light);
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  width: 30rem;
+  left: -40px;
+  top: 140%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: .5rem;
+  z-index: 99999;
+}
+
+.dropdown__toggle:hover .dropdown__menu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+.dropdown__menu:hover {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+.dropdown__menu .nav-item {
+  min-height: 70px;
+  height: 100%;
+  line-height: 70px;
+}
+
+.dropdown__menu .nav-link {
+  color: var(--dark) !important;
+  margin-left: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.dropdown__menu .nav-link::after {
+  display: none;
+}
+
+.dropdown__menu .nav-link:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.dropdown__menu .nav-link .toggler__icon {
+  margin-left: .3rem;
+}
+
+.dropdown__toggle .toggler__icon > i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.dropdown__toggle:hover .toggler__icon > i {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.menu__icon {
+  width: 4rem;
+}
+
+.hero {
+  height: 83.6rem;
+  background: var(--primary);
+}
+
+.hero__row {
+  padding-top: 7rem;
+}
+
+.hero__app__intro .button__group {
+  margin-top: 5rem !important;
+}
+
+.hero__app__intro h1 {
+  color: var(--light);
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.hero__app__intro p {
+  color: var(--light-gray);
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.hero__app__interface img {
+  width: 30rem;
+}
+
+.hero__img__circle {
+  border: 1px solid var(--light-gray);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */
