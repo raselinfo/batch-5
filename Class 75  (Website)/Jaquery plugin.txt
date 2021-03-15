@@ -1,0 +1,13 @@
+type jaquery =[
+https://www.jqueryscript.net/rotator/Text-Rotator-With-Typing-Effect-jQuery-Typer.html,
+https://www.jqueryscript.net/animation/animate-typing.html]
+
+counter jquery =[
+https://www.jqueryscript.net/time-clock/jQuery-Plugin-For-Counting-Up-Numbers-While-Scrolling-numscroller.html,
+https://www.jqueryscript.net/other/increasing-counter-effect.html]
+
+Chart.js
+pi chart
+
+
+| |
