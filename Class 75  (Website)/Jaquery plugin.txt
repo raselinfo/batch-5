@@ -6,6 +6,7 @@ counter jquery =[
 https://www.jqueryscript.net/time-clock/jQuery-Plugin-For-Counting-Up-Numbers-While-Scrolling-numscroller.html,
 https://www.jqueryscript.net/other/increasing-counter-effect.html]
 
+Nevo Slider =[https://www.jqueryscript.net/slider/nivo-slider.html#:~:text=Nivo%20Slider%20is%20considered%20as,simple%20to%20setup%20and%20use.]
 Chart.js
 pi chart
 
