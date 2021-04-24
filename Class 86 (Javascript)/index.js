@@ -95,8 +95,14 @@
 // console.log(Number(true))
 // console.log(Number(false))
 
-const str=`js`
-const num=56
+// const str=`js`
+// const num=56
 // console.log("i love "+str+" my "fav" number is "+num)
-console.log(`i love ${str} my 'fav' number is ${num}`)
-document.write(`i love ${str} my 'fav' number is ${num}`)
+// console.log(`i love ${str} my 'fav' number is ${num}`)
+// document.write(`i love ${str} my 'fav' number is ${num}`)
+
+// console.log(Math.PI)
+
+let pi=654796876546546;
+
+console.log("the value of pi "+pi)
